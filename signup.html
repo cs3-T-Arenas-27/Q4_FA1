@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Sign-Up Sheet">
+  <meta name="keywords" content="HTML, CSS">
+  <meta name="author" content="Trisha Faye S. Arenas">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <fieldset>
+	<legend>Sign-Up Sheet</legend>
+	
+	<form action="samplepage.html"></form>
+	
+    <form>
+    <label for="name">Name: </label>
+    <input type="text" id="name">
+    </form><br>
+	
+	<form>
+    <label for="user">Preferred Username: </label>
+    <input type="text" id="user">
+    </form><br>
+	
+	<form>
+    <label for="pass">Password: </label>
+    <input type="password" id="pass">
+    </form><br>
+	
+	<form>
+    <label for="confirmpass">Confirm Password: </label>
+    <input type="password" id="confirmpass">
+    </form><br>
+	
+	<form>
+	<label for="email">Email: </label>
+	<input type="email" id="email">
+	</form><br>
+	
+	<form>
+	<label for="address">Address: </label>
+	<input type="text" id="address">
+	</form><br>
+	
+	<form>
+	<label for="interests">Your Interests: </label><br>
+	<textarea id="interests" rows='7' cols='50'></textarea>
+	</form><br>
+	
+	<form>
+	<input id="submit" type="submit" value="Submit">
+	<input id="reset" type="reset" value="Reset">
+	</form>
+	
+	</fieldset>
+</body>
+
+<style>
+#interests{
+resize: none;
+}
+
+body{
+background-color: pink;
+}
+
+fieldset{
+background-color: hotpink;
+width: 500px;
+height: 450px;
+align: center;
+margin: 0 auto;
+}
+
+#submit{
+background-color:pink;
+border-color: white;
+}
+
+#reset{
+background-color: pink;
+border-color: white;
+}
+
+legend{
+font-size: 25px;
+text-align: center;
+color: black;
+padding: 8px;
+}
+
+input{
+background-color: lavender;
+border-color: white;
+}
+
+textarea{
+background-color: lavender;
+border-color: white;
+}
+</style>
+
+</html>
